@@ -1,0 +1,9 @@
+/* hermano */
+h1 ~ p { 
+    background: #ddd;
+}
+
+/* hermano inmediato */
+h1 + p {
+
+}
