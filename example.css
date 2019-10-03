@@ -1,0 +1,125 @@
+/* body > div {
+    background: blueviolet;
+    width: 200px;
+    height: 100px;
+    border: solid #333;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    float: left;
+
+}*/
+/* hover que cuando el puntero pase por el div tome el stilo css */
+/* div:hover{
+    background: blue ;
+}
+
+div:last-child{
+    background: #546325;
+}
+
+div:first-child{
+    background: darkcyan;
+}
+
+div :nth-child(5n){
+    background: chartreuse;
+}
+
+div:nth-last-child(3n){
+    background: deeppink;
+} */ 
+/* 
+div::after{
+    content:"";
+    display: block;
+    width:20px;
+    height:20px ;
+    background: #178497;
+    border-radius: 10px;
+
+    }
+
+div::before{
+   
+    } */
+/* a:visited{
+    display: block;
+    color: #565456;
+}
+a :hover{
+    color: burlywood;
+}
+a :activeP{
+ color: crimson;
+} */
+
+/* input[type="text"]:focus, input[type="password"]:focus {
+ background: indigo;
+}
+
+button:active{
+ background: chocolate;
+} */
+/* 
+.checkbox{
+    width: 200px;
+    height: 100px;
+    background: rgb(61, 12, 197);
+    border-radius: 50px;
+}
+
+.checkbox::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 19, 19);
+    border-radius: 50px;
+    transform: translateX(100px)
+}
+input[type="checkbox"]{
+position: absolute;
+width: 200px;
+height: 100px;
+opacity: O;
+z-index: 99;
+
+}
+input[type="checkbox"]:checked+ .checkbox::before{
+    transform: translateX(100px);
+}
+
+.giro {
+    width: 100px;
+    height: 100px;
+    background: black;
+    transition: .5s all ease-out;
+}
+
+.giro:hover{
+    transform: rotate(45deg);
+} */
+
+.giro {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+ }
+ /* .giro:hover {
+    transform: rotateZ(45deg);
+ } */
+ @keyframes animacion {
+    0% {
+        background: #fff;
+    }
+    50% {
+    }
+    60% {
+    }
+    100% {
+        background: #000;
+    }
+ }

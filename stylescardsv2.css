@@ -13,13 +13,37 @@ body > h1 {
 body > div {
     width: 200px;
     border: 1px solid #333;
-    padding: opx;
+    padding: 10px;
     border-radius: 10px;
     margin: 10px;
     float: left;
+    
 }
+body > div:hover {
+    background: #333;
+} 
 
 div > img {
     width: 100%;
     border-radius: 10px;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
